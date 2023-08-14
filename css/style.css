@@ -3,6 +3,62 @@
     padding: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700&display=swap');
+
 body{
     font-family:'Roboto Slab', serif;
 }
+
+/* Contact bar */
+.contact-bar {
+    background-color: #2D6F91;
+    padding: 10px 20px;
+}
+.bar-link {
+    text-decoration: none;
+    color:#eee
+
+}
+
+@media (max-width: 767px) {
+    .contact-bar {
+        display: none; /* Hide the sub-navigation on small screens */
+    }
+}
+
+.sub-header {
+    background-color: #2D6F91;
+    position: relative;
+    z-index: 1111;
+  }
+  
+  .sub-header .left-content ul li {
+    color: #fff;
+    padding: 8px 0px;
+    font-size: 13px;
+  }
+  
+  .sub-header .right-icons {
+    text-align: right;
+    padding: 8px 0px;
+  }
+  
+  .sub-header .right-icons ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .sub-header .left-content ul li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  
+  .sub-header .right-icons ul li a {
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .sub-header .right-icons ul li a:hover {
+    color: #f5a425;
+  }
+  
