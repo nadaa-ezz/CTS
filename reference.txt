@@ -1,0 +1,10 @@
+Core Technology Solutions - CTS
+
+color 
+rgb(45,111,145)
+#2D6F91
+#2FC4DC
+#97DFEE
+----------------
+#4B6C9F
+#90B0E3
