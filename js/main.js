@@ -1,16 +1,23 @@
-// Start Model Script
-const container = document.querySelector(".model-content");
-const button = document.querySelector(".button");
-const closeButton = document.querySelector(".close-button");
+// Start Servises Script 
+document.addEventListener("DOMContentLoaded", function () {
+    "use strict";
 
-function togglecontainer() {
-    container.classList.toggle("show-container");
-}
-function windowOnClick(event) {
-    if (event.target === container) {
-        togglecontainer();
-    }}
-button.addEventListener("click", togglecontainer);
-closeButton.addEventListener("click", togglecontainer);
-window.addEventListener("click", windowOnClick);
-// End Model Script
+    var portfolioIsotope = new Isotope('.portfolio-container', {
+        itemSelector: '.portfolio-item',
+        layoutMode: 'fitRows'
+    });
+
+    var filters = document.querySelectorAll('#portfolio-flters li');
+    filters.forEach(function (filter) {
+        filter.addEventListener('click', function () {
+            filters.forEach(function (f) {
+                f.classList.remove('active');
+            });
+            this.classList.add('active');
+
+            var filterValue = this.getAttribute('data-filter');
+            portfolioIsotope.arrange({ filter: filterValue });
+        });
+    });
+});
+// End Servises Script 
