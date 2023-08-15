@@ -7,71 +7,7 @@ body{
     font-family:'Roboto Slab', serif;
 }
 
-/* ======= Start Servises Section ======= */
-#portfolio-flters li {
-    display: inline-block;
-    font-weight: 500;
-    color: var(--dark);
-    cursor: pointer;
-    transition: .5s;
-    border-bottom: 2px solid transparent;
-}
 
-#portfolio-flters li:hover,
-#portfolio-flters li.active {
-    color: var(--primary);
-    border-color: var(--primary);
-}
-
-.portfolio-item img {
-    transition: .5s;
-}
-
-.portfolio-item:hover img {
-    transform: scale(1.1);
-}
-
-.portfolio-item .portfolio-overlay {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(98, 34, 204, .9);
-    transition: .5s;
-    opacity: 0;
-}
-
-.portfolio-item:hover .portfolio-overlay {
-    opacity: 1;
-}
-.close-button {
-    width: 35px;
-    height: 35px;
-    display: inline-block;
-    position: absolute;
-    top: 10px;
-    font-size:60px;
-    right: 10px;
-    -webkit-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-    border-radius: 50%;
-    background: #7b78ff;
-    font-weight: bold;
-    color: #fff;
-    text-align:center;
-    cursor:pointer;
-   
-  }
-  .close-button:hover {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(400deg);
-  }
-
-/* ======= Start Servises Section ======= */
 
 /* ======== Start Footer 01 ======== */
 a,
