@@ -1,5 +1,4 @@
-// Start Model Script
-const container = document.querySelector(".model-content");
+const container = document.querySelector(".container");
 const button = document.querySelector(".button");
 const closeButton = document.querySelector(".close-button");
 
@@ -13,4 +12,3 @@ function windowOnClick(event) {
 button.addEventListener("click", togglecontainer);
 closeButton.addEventListener("click", togglecontainer);
 window.addEventListener("click", windowOnClick);
-// End Model Script
