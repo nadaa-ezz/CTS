@@ -6,3 +6,24 @@
 body{
     font-family:'Roboto Slab', serif;
 }
+
+/* ---Header----*/
+
+#header {
+    color: #fff;
+    padding-top: 5%;
+}
+.company-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #2D6F91;
+}
+
+.company-p{
+    color: #f5a425;
+}
+
+.company-title:hover {
+    color: #f5a425;
+}
