@@ -63,21 +63,17 @@ body{
 }
 
 /*----Navbar----*/ 
-#nav{
+.navbar{
   background-color: #2D6F91;
+  font-weight: 600;
 }
-nav{
-  background-color: #2D6F91;
-}
-.navbar-nav a{
-  color: #2D6F91;
-}
+
 .navbar-nav a:hover {
   color: #f5a425;
 }
 
-.brand a{
-  color: #2D6F91;
+.navbar a{
+  color: #eee;
 }
 
 .brand a:hover{
