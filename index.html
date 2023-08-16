@@ -2,15 +2,28 @@
 <html lang="en">
 
 <head>
+    <!-- basic -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
     <title>Core Technology Solutions</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- fevicon -->
+    <!-- <link rel="icon" href="images/fevicon.png" type="image/gif" /> -->
     <!-- Libraries Stylesheet -->
     <link href="vendor/lib/lightbox/css/lightbox.css" rel="stylesheet">
-    <!-- Libraries Stylesheet -->
+    <!-- BootStrap Stylesheet -->
     <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!-- Libraries Stylesheet -->
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="vendor/lib/owlcarousel/owl.carousel.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!-- our Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,8 +37,10 @@
                     <div class="col-lg-8 col-sm-8">
                         <div class="left-content">
                             <ul>
-                                <li> <a class="bar-link" href="#">Contact: example@email.com</a> </li>
-                                <li> <a class="bar-link" href="#"> (123) 456-7890</a> </li>
+                                <li> <a class="bar-link" href="#"><i class="fas fa-envelope me-1 orn-color"></i> example@email.com</a>
+                                </li>
+                                <li> <a class="bar-link" href="#"><i class="fas fa-phone-alt me-1 orn-color"></i> (123) 456-7890</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -42,58 +57,54 @@
             </div>
         </div>
         <!--Main nav-->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <div class="brand">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/Software-engineer-1.svg" alt="" width="30" height="24">
-                    </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav mx-auto">
-                        <a class="nav-link" href="#">Home</a>
-                        <a class="nav-link" href="#">About</a>
-                        <a class="nav-link" href="#">Services</a>
-                        <a class="nav-link" href="#">Portfolio</a>
-                        <a class="nav-link" href="#">Partners</a>
-                    </div>
+        <nav id="navbar_top" class="navbar navbar-expand-lg shadow sticky-top p-4">
+            <a href="#" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+                <h3 class="m-0">Core Technology Solution</h3>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-5 p-lg-0" id="link-ul">
+                    <a href="#" class="nav-link active">Home</a>
+                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link">Services</a>
+                    <a href="#" class="nav-link">Partners</a>
+                    <a href="#" class="nav-link">Contact</a>
                 </div>
             </div>
         </nav>
     </header>
-
     <!--Navbar end-->
 
-    <!-- Header-->
+    <!-- Start Header-->
     <section id="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <p class="company-title"> Core Technology Solutions </P>
+                <div class="col-lg-7 col-md-12 d-flex align-items-start flex-column">
+                    <h2 class="company-title"> Core Technology Solutions </h2>
+                    <div class="line my-4"></div>
                     <p class="company-p"> Your trusted partner in cutting-edge web development and integrated Light
                         current solutions. Join us in shaping a tech-driven tomorrow and propelling your success to new
                         heights. </p>
                     <div class="button">
-                        <button type="button" class="btn btn-primary rounded-pill btn-lg"> Contact us</button>
+                        <button type="button" class="btn btn-primary rounded-pill btn-lg"> Our Services</button>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/Software-engineer-1.svg" class="img-fluid" style="max-height: 500px;">
+                <div class="col-lg-5 col-md-12">
+                    <img src="assets/images/Software integration.svg" class="img-fluid" style="max-height: 500px;">
                 </div>
             </div>
         </div>
     </section>
+    <!-- End Header-->
 
     <!-- ======= Start Servises Section ======== -->
-    <div class="container-xxl py-2">
-        <div class="container py-2 px-lg-5">
+    <div class="container">
+        <div class="container px-lg-5">
             <div class="wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="text-center mb-5">Our Services</h1>
+                <h1 class="text-center serv-title mb-5">Our Services</h1>
             </div>
             <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-12 text-center">
@@ -206,12 +217,34 @@
     </div>
     <!-- ======= End Servises Section ======== -->
 
+<!-- ======= StartTestimonial Section ======== -->
+
+<!-- ======= End Testimonial ======== -->
+
+    <!-- ======= Start partners Section ======== -->
+    <section id="partners py-5">
+        <div class="container py-5">
+            <p class="partner-title text-center">Our Partners</p>
+            <div class="partner-icons row d-flex justify-content-center">
+                <img src="assets/images/dell-logo.jpg" alt="">
+                <img src="assets/images/sopho-logo.jpg" alt="">
+                <img src="assets/images/huawei-logo.PNG" alt="">
+                <img src="assets/images/axis-logo.PNG" alt="">
+                <img src="assets/images/leviton.jpg" alt="">
+                <img src="assets/images/lenovo-logo.png" alt="">
+                <img src="assets/images/Kaspersky-Logo.jpg" alt="">
+                <img src="assets/images/yealink-logo.png" alt="">
+                <img src="assets/images/synology-logo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- ======= End partners Section ======== -->
     <!-- ======= Start Footer ======== -->
-    <footer id="footer">
+    <footer id="footer mt-5">
         <div class="container">
             <div class="footer-top">
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 about-footer">
+                <div class="row d-flex justify-content-evenly">
+                    <div class="col-md-6 col-lg-5 about-footer">
                         <h3>Core Technology Solutions </h3>
                         <ul>
                             <li><a href="tel:(010) 1234 4321"><i class="fas fa-phone fa-flip-horizontal"></i>(+20)
@@ -224,7 +257,7 @@
                         </ul>
                         <a href="" class="btn red-btn">logo here</a>
                     </div>
-                    <div class="col-md-6 col-lg-2 page-more-info">
+                    <div class="col-md-6 col-lg-3 page-more-info">
                         <div class="footer-title">
                             <h4>Page links</h4>
                         </div>
@@ -247,51 +280,6 @@
                             <li><a href="#">Our Low Current Solutions </a></li>
                         </ul>
                     </div>
-                    <div class="col-md-6 col-lg-4 open-hours">
-                        <div class="footer-title">
-                            <h4>Open hours</h4>
-                            <ul class="footer-social">
-                                <li><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-
-                            </ul>
-                        </div>
-                        <table class="table">
-                            <tbody>
-                                <tr>
-                                    <td><i class="far fa-clock"></i>Monday Thursday</td>
-                                    <td>9:00am - 5:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="far fa-clock"></i>Friday</td>
-                                    <td>9:00am - 4:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="far fa-clock"></i>Sturday</td>
-                                    <td>9:00am - 1:30pm</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="far fa-clock"></i>Sunday</td>
-                                    <td>9:30am - 12:00pm</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <hr>
-                        <div class="footer-logo">
-
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
-                                        <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
-                                        <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
-                                        <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
-                                        <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
                 </div>
             </div>
             <hr>
@@ -301,26 +289,25 @@
                         <a href="">Privacy policy</a>
                     </div>
                     <div class="col-sm-8">
-                        <p>Lorem ipsum dolor sit amet @ 2019 All rights reserved</p>
+                        <p>Core Technology Solutions @ 2023 All rights reserved</p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
-
     <!-- ======= End Footer ======== -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/lib/lightbox/js/lightbox.js"></script>
-    <script src="vendor/isotope/isotope.pkgd.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="vendor/js/bootstrap.bundle.js"></script>
-    <script src="js/owl-carousel.js"></script>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <!-- Lib Script -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="vendor/lib/lightbox/js/lightbox.js"></script>
+    <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+    <script src="vendor/js/bootstrap.bundle.js"></script>
+    <script src="vendor/lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Our JavaScript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

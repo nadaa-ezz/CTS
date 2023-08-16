@@ -21,3 +21,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 // End Servises Script 
+
+// Start Fixed Nav Script
+const navbar = document.getElementById("navbar_top");
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 100) {
+            navbar.classList.add("fixed-navbar", "fixed-navbar-padding");
+        } else {
+            navbar.classList.remove("fixed-navbar", "fixed-navbar-padding");
+        }
+    });
+// End Fixed Nav Script
