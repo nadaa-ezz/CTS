@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -116,3 +117,38 @@
     <script src="vendor/js/bootstrap.js"></script>
 </body>
 </html>
+
+<?php
+// Define variables and set to empty values
+$name = $email = $message = $phone_num = "";
+$recipient_email = "nada.ezzdin@cts-egy.com"; 
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = test_input($_POST["name"]);
+    $email = test_input($_POST["email"]);
+    $phone_num = test_input($_POST["phone_num"]);
+    $message = test_input($_POST["message"]);
+
+    // Validate and sanitize inputs
+    $name = filter_var($name, FILTER_SANITIZE_STRING);
+    $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+
+    // Send email
+    $subject = "New Contact Form Submission";
+    $headers = "From: $email\r\nReply-To: $email\r\n";
+    $message = "Name: $name\nEmail: $email\n\n$message";
+
+    if (mail($recipient_email, $subject, $message, $headers)) {
+        echo "<p>Your message has been sent. Thank you!</p>";
+    } else {
+        echo "<p>Sorry, something went wrong. Please try again later.</p>";
+    }
+}
+
+function test_input($data) {
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+?>
