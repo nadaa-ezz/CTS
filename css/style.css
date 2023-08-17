@@ -248,10 +248,14 @@ nav h3:hover {
 		line-height: 58px;
 	}
 }
-
+.testimonial-title{
+	color: #2D6F91;
+	font-size: 40px;
+  	font-weight: 700;
+}
 .testi-wrap {
 	position: relative;
-	height: 725px;
+	height: 550px;
 	margin-top: -80px;
 }
 
@@ -368,11 +372,11 @@ nav h3:hover {
 	h3 {
 		font-size: 22px;
 		line-height: 32px;
-		color: #505b6d;
+		color: #2D6F91;
 	}
 	span i {
 		font-size: 60px;
-		color: #0084ff;
+		color: #2D6F91;
 		margin: 40px 0 24px;
 		display: inline-block;
 	}
@@ -385,7 +389,7 @@ nav h3:hover {
 		margin-bottom: 4px;
 	}
 	p {
-		color: #0084ff;
+		color: #2D6F91;
 		text-transform: uppercase;
 	}
 }
@@ -611,7 +615,7 @@ nav h3:hover {
   font-weight: 600px;
   margin-bottom: 30px;
   margin-top: 20px;
-  color: #213b52;
+  color: #2D6F91;
 }
 
 /* ======== End partners Section  ==== */

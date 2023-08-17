@@ -1,3 +1,25 @@
+// $("html").niceScroll({
+//     mousescrollstep: 38,
+//     cursorwidth: 8,
+//     cursorborder: "2px solid #eee",
+//     cursorcolor: '#2D6F91',
+//     horizrailenabled: false,
+//     autohidemode: false, // Show the scrollbars always
+//     zindex: 9999 // Set a high z-index value
+// });
+$(document).ready(function () {
+	"use strict";
+$("html").niceScroll({
+    cursorcolor:"#2D6F91",
+    cursorwidth:"12px",
+    cursorborder:"1px solid #eee",
+    scrollspeed: 100,
+    smoothscroll:true,
+    autohidemode: false,
+    preservenativescrolling:true,
+    zindex: 9999 // Set a high z-index value
+});
+});
 // Start Servises Script 
 document.addEventListener("DOMContentLoaded", function () {
     "use strict";
@@ -61,3 +83,5 @@ $(document).ready(function () {
    });
 
 }(jQuery));
+
+
