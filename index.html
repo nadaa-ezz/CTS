@@ -23,6 +23,7 @@
     <!-- owl stylesheets -->
     <link rel="stylesheet" href="css/owl.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <link rel="stylesheet" href="vendor/animate/animate.css" />
     <!-- our Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -37,9 +38,9 @@
                     <div class="col-lg-8 col-sm-8">
                         <div class="left-content">
                             <ul>
-                                <li> <a class="bar-link" href="#"><i class="fas fa-envelope me-1 orn-color"></i> example@email.com</a>
+                                <li> <a class="bar-link" href="#"><i class="fas fa-envelope me-1 orn-color"></i> info@cts-egy.com</a>
                                 </li>
-                                <li> <a class="bar-link" href="#"><i class="fas fa-phone-alt me-1 orn-color"></i> (123) 456-7890</a>
+                                <li> <a class="bar-link" href="#"><i class="fas fa-phone-alt me-1 orn-color"></i> (02) 27634002</a>
                                 </li>
                             </ul>
                         </div>
@@ -68,7 +69,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-5 p-lg-0" id="link-ul">
                     <a href="#" class="nav-link active">Home</a>
-                    <a href="#" class="nav-link">About</a>
+                    <a href="about.html" class="nav-link">About</a>
                     <a href="#" class="nav-link">Services</a>
                     <a href="#" class="nav-link">Partners</a>
                     <a href="#" class="nav-link">Contact</a>
@@ -83,9 +84,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-12 d-flex align-items-start flex-column">
-                    <h2 class="company-title"> Core Technology Solutions </h2>
+                    <h2 class="company-title animated slideInLeft"> Core Technology Solutions </h2>
                     <div class="line my-4"></div>
-                    <p class="company-p"> Your trusted partner in cutting-edge web development and integrated Light
+                    <p class="company-p animated slideInLeft"> Your trusted partner in cutting-edge web development and integrated Light
                         current solutions. Join us in shaping a tech-driven tomorrow and propelling your success to new
                         heights. </p>
                     <div class="button">
@@ -93,7 +94,8 @@
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-12">
-                    <img src="assets/images/Software integration.svg" class="img-fluid" style="max-height: 500px;">
+                    <img src="assets/images/Software integration.svg" class="img-fluid wow zoomIn" 
+                    data-wow-delay="0.3s" style="max-height: 500px; ">
                 </div>
             </div>
         </div>
@@ -417,6 +419,11 @@
     <script src="vendor/jquery/jquery.nicescroll.min.js"></script>
     <!-- Our JavaScript -->
     <script src="js/main.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="vendor/wow/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 </body>
 
 </html>
