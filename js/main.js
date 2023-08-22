@@ -9,17 +9,19 @@
 // });
 $(document).ready(function () {
 	"use strict";
-$("html").niceScroll({
-    cursorcolor:"#2D6F91",
-    cursorwidth:"12px",
-    cursorborder:"1px solid #eee",
-    scrollspeed: 100,
-    smoothscroll:true,
+$("body").niceScroll({
+    cursorcolor:"#d9d9e3",
+    cursorwidth:"9px",
+    cursorborder:"0px solid rgba(45,111,145, 0.1)",
     autohidemode: false,
     preservenativescrolling:true,
-    zindex: 9999 // Set a high z-index value
+    zindex: 9999,
+    background: "rgba(45,111,145)"
+    
 });
-});
+}); 
+
+
 // Start Servises Script 
 document.addEventListener("DOMContentLoaded", function () {
     "use strict";
