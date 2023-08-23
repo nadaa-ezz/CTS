@@ -87,3 +87,15 @@ $(document).ready(function () {
 }(jQuery));
 
 // Logo Slider
+
+document.getElementById("whatsapp-link").addEventListener("click", function(event) {
+    event.preventDefault();
+    openWhatsAppChat();
+});
+
+function openWhatsAppChat() {
+    var numbers = "0201201117955,966540038724"; 
+
+    var url = "https://api.whatsapp.com/send?phone=" + numbers;
+    window.open(url, "_blank");
+}
