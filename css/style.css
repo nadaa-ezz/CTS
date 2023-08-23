@@ -267,9 +267,7 @@ nav h3:hover {
     color: #276685;
 }
 
-.partners-title h1:hover{
-	color: #f5a425;
-}
+
 .partners-title h1::before {
     content: '';
     background: #f5a425;
