@@ -1,93 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Core Technology Solutions</title>
-    <!-- Libraries Stylesheet -->
-    <link rel="stylesheet" href="vendor/css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <!-- Libraries Stylesheet -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/about.css" />
-    <link rel="stylesheet" href="vendor/animate/animate.css" />
-  </head>
-  <body>
-    <!--Navbar start-->
-    <header>
-      <!-- Sub Header -->
-      <div class="sub-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-sm-8">
-              <div class="left-content">
-                <ul>
-                  <li>
-                    <a class="bar-link" href="#">Contact: info@cts-egy.com</a>
-                  </li>
-                  <li><a class="bar-link" href="#"> (02) 27634002</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-4">
-              <div class="right-icons">
-                <ul>
-                  <li>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--Main nav-->
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <div class="brand">
-            <a class="navbar-brand" href="#">
-              <img
-                src="assets/Software-engineer-1.svg"
-                alt=""
-                width="30"
-                height="24"
-              />
-            </a>
-          </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav mx-auto">
-              <a class="nav-link" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Services</a>
-              <a class="nav-link" href="#">Portfolio</a>
-              <a class="nav-link" href="#">Partners</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
 
-    <!--Navbar end-->
+<head>
+  <!-- basic -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- mobile metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- site metas -->
+  <title>Core Technology Solutions</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- fevicon -->
+  <!-- <link rel="icon" href="images/fevicon.png" type="image/gif" /> -->
+  <!-- Libraries Stylesheet -->
+  <link href="vendor/lib/lightbox/css/lightbox.css" rel="stylesheet">
+  <!-- BootStrap Stylesheet -->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- owl stylesheets -->
+  <link rel="stylesheet" href="vendor/owl/owl.carousel.min.css"> 
+  <link rel="stylesheet" href="vendor/owl/owl.theme.default.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  <link rel="stylesheet" href="vendor/animate/animate.css">
+
+  <!-- our Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about.css">
+</head>
+
+  <body>
+        <!--Navbar start-->
+        <header>
+          <!-- Sub Header -->
+          <div class="sub-header">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-8 col-sm-8">
+                          <div class="left-content">
+                              <ul>
+                                  <li> <a class="bar-link" href="#"><i class="fas fa-envelope me-1 orn-color"></i> info@cts-egy.com</a>
+                                  </li>
+                                  <li> <a class="bar-link" href="#"><i class="fas fa-phone-alt me-1 orn-color"></i> (02) 27634002</a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-4">
+                          <div class="right-icons">
+                              <ul>
+                                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                  <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!--Main nav-->
+          <nav id="navbar_top" class="navbar navbar-expand-lg shadow sticky-top p-4">
+              <a href="#" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+                <img src="images/logo background 3.png" alt=""  width="90" height="50" />
+              </a>
+              <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                  data-bs-target="#navbarCollapse">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <div class="navbar-nav ms-auto p-5 p-lg-0" id="link-ul">
+                      <a href="index.html" class="nav-link active">Home</a>
+                      <a href="about.html" class="nav-link">About</a>
+                      <a href="#" class="nav-link">Services</a>
+                      <a href="#" class="nav-link">Partners</a>
+                      <a href="#" class="nav-link">Contact</a>
+                  </div>
+              </div>
+          </nav>
+      </header>
+      <!--Navbar end-->
 
     <!-- About us start-->
     <!-- About Start -->
@@ -95,8 +88,8 @@
       <div class="container px-lg-5">
         <div class="row g-5 align-items-center">
           <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="section-title position-relative mb-4 pb-4">
-              <h1 class="mb-2 about-title animated slideInLeft">
+            <div class="section-title position-relative mb-3 pb-4">
+              <h1 class="mb-1 about-title animated slideInLeft">
                 Welcome to Core Technology Solutions
               </h1>
             </div>
@@ -120,7 +113,7 @@
             <img
               class="img-fluid wow zoomIn"
               data-wow-delay="0.5s"
-              src="assets/about-img.svg"
+              src="images/about-img.svg"
             />
           </div>
         </div>
@@ -131,7 +124,7 @@
         <div class="col-sm-6">
           <div class="bg-light rounded text-center p-4">
             <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
-            <h2 class="mb-1">Our Vision</h2>
+            <h2 class="mb-1 mission">Our Vision</h2>
             <p class="mb-0">
               To be the leading provider of software applications and integrated
               Light current solutions in Egypt, while also making our mark
@@ -142,7 +135,7 @@
         <div class="col-sm-6">
           <div class="bg-light rounded text-center p-4">
             <i class="fa fa-users fa-2x text-primary mb-2"></i>
-            <h2 class="mb-1">Our Mission</h2>
+            <h2 class="mb-1 mission">Our Mission</h2>
             <p class="mb-0">
               To craft cutting-edge software apps and integrated Light current
               solutions that redefine the technological landscape in Egypt and
@@ -153,13 +146,24 @@
       </div>
     </div>
     <!-- About End -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/js/bootstrap.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="vendor/wow/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
+    
+  <!-- Lib Script -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="vendor/lib/lightbox/js/lightbox.js"></script>
+  <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/lib/owlcarousel/owl.carousel.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/jquery/jquery-3.5.1.min.js"></script>
+  <script src="vendor/jquery/jquery.nicescroll.min.js"></script>
+  <!-- Our JavaScript -->
+  <script src="js/main.js"></script>
+  <script src="vendor/wow/wow.min.js"></script>
+  <script src="vendor/owl/owl.carousel.min.js"></script>
+  <script src="js/owl.js"></script>
+  <script>
+    new WOW().init();
+  </script>
   </body>
 </html>

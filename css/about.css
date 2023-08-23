@@ -1,27 +1,9 @@
-
-.about-title::before {
-  content: "";
-  background: #fdd067;
-  height: 5px;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  transform: translateY(63px);
-}
-
 .about-title {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
-    margin-top: 70px;
-    color: #2D6F91;
-}
-
-.about-title:hover {
-    color: #f5a425;
+    margin-top: 50px;
 }
   
 .about-p {
-    font-size: 20px
+    font-size: 15px
 }
-

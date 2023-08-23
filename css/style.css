@@ -262,9 +262,9 @@ nav h3:hover {
 
 .partners-title h1{
 	padding: 10px;
-    margin-top: 50px;
-    font-weight: 450;
-    color: #276685;
+  margin-top: 50px;
+  font-weight: 450;
+  color: #276685;
 }
 
 
@@ -272,11 +272,12 @@ nav h3:hover {
     content: '';
     background: #f5a425;
     height: 5px;
-    width: 250px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3%;
     display: block;
-    transform: translateY(60px);
+    transform: translateY(63px);
 }
 
 @media (max-width: 770px) {
@@ -295,22 +296,80 @@ nav h3:hover {
 }  
 
 .owl-carousel .item {
-    height: 25vh;
-    border: 2px solid rgba(45,111,145, 0.1);
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center horizontally */
-    align-items: center; 
-    margin: 8px;
+  height: 25vh;
+  border: 2px solid rgba(45,111,145, 0.1);
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  margin: 8px;
 	border-radius: 10%;
 }
 
 .owl-carousel .item img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit:contain;
 }
 
 /* ======== End partners Section  ==== */
+
+
+/* ======== start about us  ==== */
+.about-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 50px;
+  color: #276685;
+}
+
+.about-p {
+  font-size: 15px
+}
+
+/* ======== End about us ==== */
+
+
+/* ======== start why us  ==== */
+#why-us {
+  background: #f8f9fa;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.why-title2::before {
+  content: '';
+  background: #f5a425;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  display: block;
+  transform: translateY(63px);
+}
+
+.why-title {
+  font-size: 40px;
+  margin-top: 2%;
+  font-weight: 450;
+  color: #276685;
+}
+.get-qoute {
+  font-size: 20px;
+  font-weight: 400;
+ 
+}
+#why-us ul li {
+  margin: 10px 0;
+  
+}
+
+#why-us ul{
+  margin-left: 20px;
+  list-style: square;
+}
+
+/* ======== End why us  ==== */
 
 /* ======== Start Footer ** ======== */
 a,
