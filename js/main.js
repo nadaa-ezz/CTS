@@ -87,3 +87,7 @@ $(document).ready(function () {
 }(jQuery));
 
 // Logo Slider
+
+document.getElementById("redirect-get-qoute").addEventListener("click", function() {
+    window.location.href = "get-qoute.html";
+});
