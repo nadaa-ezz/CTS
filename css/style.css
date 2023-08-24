@@ -321,13 +321,82 @@ nav h3:hover {
   z-index: 999; /* Make sure it's above other elements */
 }
 
-.whatsapp-icon img {
+.whatsapp-icon #whats-fixed {
   width: 50px; 
   height: 50px; 
   border-radius: 50%;
   padding: 10px;
   border-radius: 50%;
   background-color: #25d366;
+}
+.whatsapp-icon ul{
+  list-style-type: none;
+}
+
+.whatsapp-icon li ul{
+position:absolute;
+list-style:none;
+text-align:center;
+width:180px;
+top: -100%;
+left:100%;
+right: -100%;
+margin-left:-3%;
+font:bold 12px 'Open Sans Condensed', sans-serif;
+
+/* This is important for the show/hide CSS animation */
+max-height:0px;
+overflow:hidden;
+-webkit-transition:max-height 0.4s linear;
+-moz-transition:max-height 0.4s linear;
+transition:max-height 0.4s linear;
+}
+
+.whatsapp-icon li ul li{
+background-color:transparent;
+  list-style-type: none;
+}
+
+.whatsapp-icon li ul li a{
+padding:12px;
+color:#222025 !important;
+text-decoration:none !important;
+display:block;
+}
+
+
+.whatsapp-icon li ul li:hover{
+background-color: transparent;
+}
+
+.whatsapp-icon li ul li:first-child{
+border-radius:3px 3px 0 0;
+margin-top:5px;
+position:relative;
+}
+
+.whatsapp-icon li ul li:first-child:before{ /* the pointer tip */
+content:'';
+position:absolute;
+width:1px;
+height:1px;
+border:5px solid transparent;
+border-bottom-color: transparent;
+left:3%;
+top:-5px;
+margin-left:-5px;
+}
+
+.whatsapp-icon li ul li:last-child{
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+}
+
+/* This will trigger the CSS */
+/* transition animation on hover */
+
+.whatsapp-icon li:hover ul{
+max-height:200px; /* Increase when adding more dropdown items */
 }
 
 .up-arrow {
