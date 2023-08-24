@@ -99,3 +99,24 @@ function openWhatsAppChat() {
     var url = "https://api.whatsapp.com/send?phone=" + numbers;
     window.open(url, "_blank");
 }
+
+document.getElementById("contact").addEventListener("submit", function(event) {
+    var name = document.getElementById("name").value;
+    var mobile = document.getElementById("mobile").value;
+
+    // Mobile number validation (numeric, length)
+    if (!/^[0-9]+$/.test(mobile)) {
+        alert("Mobile number must contain only numbers");
+        event.preventDefault(); // Prevent form submission
+        return;
+    }
+    if (mobile.length !== 10) {
+        alert("Mobile number must be 10 digits long");
+        event.preventDefault(); // Prevent form submission
+        return;
+    }
+});
+
+
+
+
