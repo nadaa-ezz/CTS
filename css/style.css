@@ -646,7 +646,7 @@ section.contact-us #contact input {
   box-shadow: none;
   font-size: 13px;
   font-weight: 500;
-  color: #000;
+  color: #1f272b;
   padding: 0px 15px;
   margin-bottom: 30px;
 }
@@ -660,7 +660,7 @@ section.contact-us #contact select {
   box-shadow: none;
   font-size: 13px;
   font-weight: 500;
-  color: #000;
+  color: #1f272b;
   padding: 0px 15px;
   margin-bottom: 30px;
 }
@@ -676,7 +676,7 @@ section.contact-us #contact textarea {
   box-shadow: none;
   font-size: 13px;
   font-weight: 500;
-  color: #000;
+  color: #1f272b;
   padding: 15px;
   margin-bottom: 30px;
 }
@@ -733,4 +733,23 @@ section.contact-us .right-info ul li span {
   font-weight: 700;
 }
 
+.success-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Adjust the height as needed */
+  width: 500px; /* Adjust the width as needed */
+
+  margin: 0 auto; /* Center horizontally */
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.success-message {
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #00a600
+}
 /* ======== End contact ========  */
