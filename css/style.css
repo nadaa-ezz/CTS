@@ -188,7 +188,12 @@ nav h3:hover {
   outline: none;
   box-shadow: none;
 }
-
+.left-content ul li i{
+  color: #f5a425;
+}
+.left-content ul li:nth-child(3){
+  color: #222025;
+}
 /* ======= Start Header Section ======= */
 .line {
   height: 6px;
