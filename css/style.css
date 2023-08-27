@@ -10,20 +10,12 @@
   color: #eee
 }
 
-:root {
-	
-	@media (prefers-reduced-motion: no-preference) {
-		scroll-behavior: auto;
-	}
 
-  }
-  
 body {
   font-family: 'Roboto Slab', serif;
 }
 
 /* ---Header----*/
-
 #header {
   color: #fff;
   padding-top: 2%;
@@ -70,12 +62,6 @@ body {
 
 }
 
-@media (max-width: 770px) {
-  .sub-header {
-    display: none;
-  }
-}
-
 .sub-header {
   background-color: #F1F0E8;
 }
@@ -117,31 +103,32 @@ body {
 .sub-header .left-content ul li a {
   color: #276685;
 }
+
 /* ====== Navbar ===== */
 .fixed-navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
   z-index: 1030;
-  transition: background-color 0.3s ease-in-out; /* Add a smooth transition effect */
-  background-color: #ADC4CE; /* Add a semi-transparent background color */
+  transition: background-color 0.3s ease-in-out;
+  /* Add a smooth transition effect */
+  background-color: whitesmoke;
+  /* Add a semi-transparent background color */
 }
 
 /* Add a class to adjust the padding when the navbar is fixed */
 .fixed-navbar-padding {
-  padding-top: 50px; /* Adjust the padding based on your navbar height */
+  padding-top: 50px;
+  /* Adjust the padding based on your navbar height */
 }
 
 .navbar {
-  background-color: #96B6C5;
+  background-color: white;
   font-weight: 600;
   margin: 0;
   padding: 0;
 }
 
-.navbar-nav .nav-link.active{
-  color: #fdbc54; /* Change to your desired active color */
+.navbar-nav .nav-link.active {
+  color: #fdbc54;
+  /* Change to your desired active color */
   font-weight: bold;
 }
 
@@ -191,12 +178,27 @@ nav h3:hover {
   outline: none;
   box-shadow: none;
 }
-.left-content ul li i{
+
+.left-content ul li i {
   color: #f5a425;
 }
-.left-content ul li:nth-child(3){
+
+.left-content ul li:nth-child(3) {
   color: #276685;
 }
+
+#navBtn {
+  background-color: #276685;
+  color: #eee;
+  border: none;
+}
+
+#navBtn:hover {
+  background-color: #f5a425;
+  color: #eee;
+  border: none;
+}
+
 /* ======= Start Header Section ======= */
 .line {
   height: 6px;
@@ -208,12 +210,69 @@ nav h3:hover {
 
 /* =======End  Header Section ======= */
 
-/* ===== Start Services ===== */
-.serv-title{
+/* =======Start  Services Section ======= */
+
+#services {
+  margin-top: 20px;
+  background: #f8f9fa;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+
+.services-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.services {
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.services p {
+  color: #000;
+  font-size: 15px;
+}
+
+.services h4 {
+  padding: 5px;
+  margin-top: 20px;
+  font-weight: 450;
+  color: #276685;
+  text-transform: uppercase;
+}
+
+.service-title {
+  color: #276685;
+}
+
+.service-title::before {
+  content: '';
+  background: #f5a425;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+  border-radius: 10px;
+}
+
+.services:hover {
+  transform: translateY(-10px);
+}
+
+
+/* ===== Start Portofolio ===== */
+.serv-title {
   font-size: 40px;
   font-weight: 700;
   color: #2D6F91;
 }
+
 #portfolio-flters li {
   display: inline-block;
   font-weight: 500;
@@ -255,22 +314,23 @@ nav h3:hover {
   opacity: 1;
 }
 
-/* ===== End Services ===== */ 
+/* ===== End Portofolio ===== */
 
 
 /* ======== Start partners Section  ==== */
 .partner-icons img {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    transition: 0.5s;
-}
-.partner-icons img:hover  {
-    transform: translateY(-10px);
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  transition: 0.5s;
 }
 
-.partners-title h1{
-	padding: 10px;
+.partner-icons img:hover {
+  transform: translateY(-10px);
+}
+
+.partners-title h1 {
+  padding: 10px;
   margin-top: 50px;
   font-weight: 450;
   color: #276685;
@@ -278,169 +338,37 @@ nav h3:hover {
 
 
 .partners-title h1::before {
-    content: '';
-    background: #f5a425;
-    height: 5px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
-    display: block;
-    transform: translateY(63px);
-    border-radius: 10px;
+  content: '';
+  background: #f5a425;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  display: block;
+  transform: translateY(63px);
+  border-radius: 10px;
 }
-
-@media (max-width: 770px) {
-
-	.owl-carousel {
-		display: flex;
-		justify-content: center; /* Center items horizontally */
-		align-items: center;
-	}
-
-	.owl-carousel .item {
-		width: 80%; /* Adjust this based on your design */
-		max-width: 300px; /* Set a maximum width for items */
-		margin: 0 auto;
-	}
-}  
 
 .owl-carousel .item {
   height: 25vh;
-  border: 2px solid rgba(45,111,145, 0.1);
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center; 
+  border: 2px solid rgba(45, 111, 145, 0.1);
+  display: flex;
+  /* Use flexbox for centering */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
   margin: 8px;
-	border-radius: 10%;
+  border-radius: 10%;
 }
 
 .owl-carousel .item img {
-    width: 80%;
-    height: 80%;
-    object-fit:contain;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
 }
 
 /* ======== End partners Section  ==== */
-
-/* ======== Start fixed icons ==== */
-.whatsapp-icon {
-  position: fixed;
-  bottom: 20px; /* Adjust as needed */
-  left: 20px; /* Adjust as needed */
-  z-index: 999; /* Make sure it's above other elements */
-}
-
-.whatsapp-icon #whats-fixed {
-  width: 50px; 
-  height: 50px; 
-  border-radius: 50%;
-  padding: 10px;
-  border-radius: 50%;
-  background-color: #25d366;
-}
-.whatsapp-icon ul{
-  list-style-type: none;
-}
-
-.whatsapp-icon li ul{
-position:absolute;
-list-style:none;
-text-align:center;
-width:180px;
-top: -100%;
-left:100%;
-right: -100%;
-margin-left:-3%;
-font:bold 12px 'Open Sans Condensed', sans-serif;
-
-/* This is important for the show/hide CSS animation */
-max-height:0px;
-overflow:hidden;
--webkit-transition:max-height 0.4s linear;
--moz-transition:max-height 0.4s linear;
-transition:max-height 0.4s linear;
-}
-
-.whatsapp-icon li ul li{
-background-color:transparent;
-  list-style-type: none;
-}
-
-.whatsapp-icon li ul li a{
-padding:12px;
-color:#222025 !important;
-text-decoration:none !important;
-display:block;
-}
-
-
-.whatsapp-icon li ul li:hover{
-background-color: transparent;
-}
-
-.whatsapp-icon li ul li:first-child{
-border-radius:3px 3px 0 0;
-margin-top:5px;
-position:relative;
-}
-
-.whatsapp-icon li ul li:first-child:before{ /* the pointer tip */
-content:'';
-position:absolute;
-width:1px;
-height:1px;
-border:5px solid transparent;
-border-bottom-color: transparent;
-left:3%;
-top:-5px;
-margin-left:-5px;
-}
-
-.whatsapp-icon li ul li:last-child{
-border-bottom-left-radius:3px;
-border-bottom-right-radius:3px;
-}
-
-/* This will trigger the CSS */
-/* transition animation on hover */
-
-.whatsapp-icon li:hover ul{
-max-height:200px; /* Increase when adding more dropdown items */
-}
-
-.up-arrow {
-  position: fixed;
-  bottom: 20px; /* Adjust as needed */
-  right: 20px; /* Adjust as needed */
-  z-index: 999; /* Make sure it's above other elements */
-}
-
-.up-arrow img{
-  width: 50px;
-  height: 50px; 
-  border-radius: 50%;
-  background-color: #276685; 
-  padding: 10px;
-}
-
-/* ======== End fixed icons  ==== */
-
-
-/* ======== start about us  ==== */
-.about-title {
-  font-size: 30px;
-  font-weight: 700;
-  margin-top: 50px;
-  color: #276685;
-}
-
-.about-p {
-  font-size: 15px
-}
-
-/* ======== End about us ==== */
-
 
 /* ======== start why us  ==== */
 #why-us {
@@ -461,6 +389,7 @@ max-height:200px; /* Increase when adding more dropdown items */
   transform: translateY(63px);
   border-radius: 10px;
 }
+
 .why-title2 {
   color: #276685;
 }
@@ -471,17 +400,19 @@ max-height:200px; /* Increase when adding more dropdown items */
   font-weight: 450;
   color: #276685;
 }
+
 .get-qoute {
   font-size: 20px;
   font-weight: 400;
- 
-}
-#why-us ul li {
-  margin: 10px 0;
-  
+
 }
 
-#why-us ul{
+#why-us ul li {
+  margin: 10px 0;
+
+}
+
+#why-us ul {
   margin-left: 20px;
   list-style: square;
 }
@@ -489,267 +420,264 @@ max-height:200px; /* Increase when adding more dropdown items */
 /* ======== End why us  ==== */
 
 /* ======== Start Footer ** ======== */
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-  outline: none;
+/*** Footer ***/
+.footer {
+  background-color: rgb(47,112,144);
 }
 
-a,
-a:active,
-a:focus {
-  color: #333;
-  text-decoration: none;
-  transition-timing-function: ease-in-out;
-  -ms-transition-timing-function: ease-in-out;
-  -moz-transition-timing-function: ease-in-out;
-  -webkit-transition-timing-function: ease-in-out;
-  -o-transition-timing-function: ease-in-out;
-  transition-duration: .2s;
-  -ms-transition-duration: .2s;
-  -moz-transition-duration: .2s;
-  -webkit-transition-duration: .2s;
-  -o-transition-duration: .2s;
+.footer .btn.btn-social {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F1F0E8;
+  border: 1px solid #F1F0E8;
+  border-radius: 35px;
+  transition: .3s;
+  background-color: transparent;
 }
 
-ul {
-  margin: 0;
+.footer .btn.btn-social:hover {
+  background-color: transparent;
+  border: 1px solid #f5a425;
+  color: #f5a425;
+}
+
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
   padding: 0;
-  list-style: none;
+  text-align: left;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: .3s;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.btn {
-  padding: 14px 25px;
-  -webkit-transition: all 0.8s;
-  -moz-transition: all 0.8s;
-  -o-transition: all 0.8s;
-  transition: all 0.8s;
-}
-
-.red-btn {
-  background: #f5a425;
-  border: 2px solid #f5a425;
-  color: #fff;
-}
-
-.red-btn:hover {
-  background: #7bc295;
-  color: #fff;
-  border-color: #ffffff;
-}
-
-/* ======= Start footer ======= */
-footer {
-  background-color: #96B6C5;
-  color: #276685;
-  padding-top: 50px;
-  font-size: 17px;
-  margin-bottom: 0;
-}
-
-footer h3 {
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-footer h4 {
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  display: inline-block;
-  margin-bottom: 2px;
-}
-
-.about-footer li i {
-  position: absolute;
-  left: 0;
-}
-
-.about-footer li {
-  padding-left: 40px;
+.footer .btn.btn-link::before {
   position: relative;
-  margin-bottom: 40px;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
 }
 
-.about-footer ul {
-  margin-top: 40px;
+.footer .btn.btn-link:hover {
+  letter-spacing: 1px;
+  box-shadow: none;
 }
 
-footer a {
-  color: #276685;
+.footer .copyright {
+  padding: 25px 0;
+  font-size: 15px;
+  border-top: 1px solid rgba(256, 256, 256, .1);
 }
 
-footer a:hover {
-  color: #f5a425;
+.footer .copyright a {
+  color: var(--light);
 }
 
-.footer-title {
-  border-bottom: 2px solid #f5a425;
-  padding-bottom: 25px;
-  margin-bottom: 35px;
+.footer .footer-menu a {
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid rgba(255, 255, 255, .3);
 }
 
-ul.footer-social {
-  float: right;
+.footer .footer-menu a:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
 }
 
-ul.footer-social li {
-  display: inline;
-  margin-right: 16px;
+#footerBtn {
+  background-color: #f5a425;
+  color: #eee;
+  border: none;
 }
 
-ul.footer-social i {
-  width: 30px;
-  height: 30px;
-  background: #fff;
-  color: #222025;
-  text-align: center;
-  line-height: 30px;
-  border-radius: 30px;
-  font-size: 16px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  font-weight: 800;
+#footerBtn:hover {
+  background-color: #eb9b1b;
+  color: #eee;
+  border: none;
 }
-
-ul.footer-social li:last-child {
-  margin-right: 0px;
-}
-
-ul.footer-social i:hover {
-  background: #f5a425;
-  color: #fff;
-}
-
-.page-more-info li {
-  margin-bottom: 31px;
-}
-
-footer .table td:first-child {
-  font-weight: 600;
-  padding-left: 33px;
-}
-
-footer .table td:last-child {
-  text-align: right;
-}
-
-footer .table td {
-  padding: 0px;
-  border: 0;
-}
-
-footer .table tr {
-  color: #f5a425;
-}
-
-footer .table td i {
-  position: absolute;
-  left: 0px;
-  font-size: 21px;
-  top: 6px;
-}
-
-footer .table td {
-  position: relative;
-  padding: 4px 0;
-}
-
-.footer-logo td {
-  padding-right: 4px !important;
-}
-
-.footer-logo td:last-child {
-  padding-right: 0px !important;
-}
-
-footer hr {
-  border-color: #9294a0;
-}
-
-.footer-bottom p {
-  text-align: right;
-}
-
-.footer-bottom {
-  margin-top: 30px;
-  margin-bottom: 0;
-}
-
-.open-hours hr {
-  margin: 30px 0;
-}
-
 /* ======== End Footer ======== */
 
- /* ======== custom Color ========  */
- .orn-color {
+/* ======== custom Color ========  */
+.orn-color {
   color: #f5a425;
 }
 
-/*------Services-----*/
-
-#services{
-  margin-top: 20px;
-  background: #f8f9fa;
-  padding-bottom: 30px;
-  padding-top: 30px;
- 
+/* ======== Start fixed icons ==== */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  /* Adjust as needed */
+  left: 20px;
+  /* Adjust as needed */
+  z-index: 999;
+  /* Make sure it's above other elements */
 }
 
-.services-img {
-  width: 80px;
-  height: 80px;
+.whatsapp-icon #whats-fixed {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  margin-top: 20px;
-}
-services-bg{
-  background: #ccc;
-}
-
-.services {
-  padding: 20px;
-  transition: 0.5s;
-}
-.services p {
-  color: #000;
-  font-size: 15px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #25d366;
 }
 
-.services h4 {
-  padding: 5px;
-  margin-top: 20px;
-  font-weight: 450;
-  color: #276685;
-  text-transform: uppercase;
+.whatsapp-icon ul {
+  list-style-type: none;
 }
 
-.service-title {
-  color: #276685;
+.whatsapp-icon li ul {
+  position: absolute;
+  list-style: none;
+  text-align: center;
+  width: 180px;
+  top: -100%;
+  left: 100%;
+  right: -100%;
+  margin-left: -3%;
+  font: bold 12px 'Open Sans Condensed', sans-serif;
+
+  /* This is important for the show/hide CSS animation */
+  max-height: 0px;
+  overflow: hidden;
+  -webkit-transition: max-height 0.4s linear;
+  -moz-transition: max-height 0.4s linear;
+  transition: max-height 0.4s linear;
 }
-.service-title::before {
-  content: '';
-  background: #f5a425;
-  height: 5px;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
+
+.whatsapp-icon li ul li {
+  background-color: transparent;
+  list-style-type: none;
+}
+
+.whatsapp-icon li ul li a {
+  padding: 12px;
+  color: #222025 !important;
+  text-decoration: none !important;
   display: block;
-  transform: translateY(63px);
-  border-radius: 10px;
 }
 
-.services:hover  {
-  transform: translateY(-10px);
+
+.whatsapp-icon li ul li:hover {
+  background-color: transparent;
 }
 
+.whatsapp-icon li ul li:first-child {
+  border-radius: 3px 3px 0 0;
+  margin-top: 5px;
+  position: relative;
+}
+
+.whatsapp-icon li ul li:first-child:before {
+  /* the pointer tip */
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 5px solid transparent;
+  border-bottom-color: transparent;
+  left: 3%;
+  top: -5px;
+  margin-left: -5px;
+}
+
+.whatsapp-icon li ul li:last-child {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* This will trigger the CSS */
+/* transition animation on hover */
+
+.whatsapp-icon li:hover ul {
+  max-height: 200px;
+  /* Increase when adding more dropdown items */
+}
+
+.up-arrow {
+  position: fixed;
+  bottom: 20px;
+  /* Adjust as needed */
+  right: 20px;
+  /* Adjust as needed */
+  z-index: 999;
+  /* Make sure it's above other elements */
+}
+
+.up-arrow i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #276685;
+  padding: 20px 20px;
+}
+
+/* ======== End fixed icons  ==== */
+
+
+/* =================================================================About Page =================================================================*/
+
+/* ======== start about us  ==== */
+.about-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 50px;
+  color: #276685;
+}
+
+.about-p {
+  font-size: 15px
+}
+
+/* ======== End about us ==== */
+
+
+/* ================================================================= Contact Page =================================================================*/
+
+
+
+/* ================================================================= Media Query  ================================================================ */
+
+/* ======================================================= Home Page Media Query =================================================================*/
+/* ====== Scroll Media Query ===== */
+:root {
+
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: auto;
+  }
+
+}
+
+/* ====== Sub-header Media Query ===== */
+@media (max-width: 770px) {
+  .sub-header {
+    display: none;
+  }
+}
+
+/* ====== Partners Section Media Query ===== */
+@media (max-width: 770px) {
+
+  .owl-carousel {
+    display: flex;
+    justify-content: center;
+    /* Center items horizontally */
+    align-items: center;
+  }
+
+  .owl-carousel .item {
+    width: 80%;
+    /* Adjust this based on your design */
+    max-width: 300px;
+    /* Set a maximum width for items */
+    margin: 0 auto;
+  }
+}

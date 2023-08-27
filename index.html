@@ -70,22 +70,22 @@
             </div>
         </div>
         <!--Main nav-->
-        <nav id="navbar_top" class="navbar navbar-expand-lg sticky-top p-4">
+        <nav id="navbar_top" class="navbar navbar-expand-lg shadow sticky-top p-4">
             <a href="#" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
-                <img src="images/cts-logo-nav.png" alt="" width="80px" height="30px" />
+                <img src="images/loho-cts.png" alt="" width="100px" height="30px" />
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-5 p-lg-0" id="link-ul">
+                <div class="navbar-nav m-auto p-5 p-lg-0" id="link-ul">
                     <a href="index.html" class="nav-link active">Home</a>
                     <a href="about.html" class="nav-link">About</a>
                     <a href="#services" class="nav-link">Services</a>
                     <a href="#portfolio" class="nav-link">Portfolio</a>
-                    <a href="contact.html" class="nav-link">Request Quote</a>
                 </div>
+                <a id="navBtn" class="btn btn-primary rounded-pill" href="contact.html" target="_blank" role="button"> Request Quote </a>
             </div>
         </nav>
     </header>
@@ -133,14 +133,15 @@
         </div>
 
         <div class="up-arrow">
-            <a href="#header"> <img src="images/up-arrow.png" alt="up-arrow"> </a>
+            <a href="#navbar_top">
+                <i class="fas fa-hand-point-up fa-sm" style="color: #fafafa;"></i>
+            </a>
         </div>
 
     </section>
 
 
-    <!-- Services start-->
-
+    <!-- ======= Start services Section ======== -->
     <section id="services">
         <div class="services-bg">
         <div class="container text-center my-5">
@@ -171,8 +172,7 @@
     </div>
 
     </section>
-
-    <!--Service end-->
+    <!-- ======= End services Section ======== -->
 
 
     <!-- ======= Start portfolio Section ======== -->
@@ -395,7 +395,6 @@
     <!-- End About us-->
 
     <!-- ======= Start clients Section ======== -->
-
     <section id="clients" class="my-5">
         <div class="container">
             <div class="partners-title text-center  my-5">
@@ -420,69 +419,72 @@
             </div>
         </div>
     </section>
-
     <!-- ======= End clients Section ======== -->
 
-
-
     <!-- ======= Start Footer ======== -->
-    <footer id="footer mt-5">
-        <div class="container">
-            <div class="footer-top">
-                <div class="row d-flex justify-content-evenly">
-                    <div class="col-md-6 col-lg-5 about-footerr">
-                        <h3>Core Technology Solutions </h3>
-                        <ul>
-                            <li><a href="tel:(010) 1234 4321"><i class="fas fa-phone fa-flip-horizontal"></i> (+20)
-                                    1201117955 </a></li>
-                            <li><a href="tel:(010) 1234 4321"><i class="fas fa-phone fa-flip-horizontal"></i> (+966)
-                                    540038724 </a></li>
-                            <li><a href="https://goo.gl/maps/4Smppuo3Vs1LQqtU9"><i class="fas fa-map-marker-alt"></i>
-                                    1201117955 / 151<sup>St</sup> Maadi
-                                    <br />Cairo, Egypt </a>
-                            </li>
-                        </ul>
-                        <img src="images/cts-logo-footer.png" alt="" width="130" height="90" class="my-3" />
-                    </div>
-                    <div class="col-md-6 col-lg-3 page-more-info text-center">
-                        <div class="footer-title">
-                            <h4>Page links</h4>
+        <div class="container-fluid text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-2">
+                <div class="row g-5 d-flex justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-light mb-4">Address</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>4D, Police Man Institute St., Maadi, Cairo</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+966) 540038724 </p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+20) 1201117955 </p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@cts egy.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-behance"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-snapchat-ghost"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="">IT Services</a></li>
-                            <li><a href="#">Get qoute</a></li>
-                        </ul>
                     </div>
-
-                    <div class="col-md-6 col-lg-3 page-more-info text-center">
-                        <div class="footer-title">
-                            <h4>More Info</h4>
+                    <div class="col-lg-2 col-md-6">
+                        <h4 class="text-light mb-4">More Info</h4>
+                        <a class="btn btn-link" href="">About</a>
+                        <a class="btn btn-link" href="">Services</a>
+                        <a class="btn btn-link" href="">Our Mission</a>
+                        <a class="btn btn-link" href="">Our Vision</a>
+                        <a class="btn btn-link" href="">Privacy policy</a>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h4 class="text-light mb-4">Services</h4>
+                        <a class="btn btn-link" href="">Web Design</a>
+                        <a class="btn btn-link" href="">IT Service</a>
+                        <a class="btn btn-link" href="">Web Development</a>
+                        <a class="btn btn-link" href="">Portofolio</a>
+                        <a class="btn btn-link" href="">Get Quote</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Contact us</h4>
+                        <h5 class="mb-3">Core Technology Solutions</h5>
+                        <div class="position-relative mx-auto my-3" style="max-width: 400px;">
+                            <button type="button" id="footerBtn" class="btn rounded-pill btn-lg"> Request Quote</button>
                         </div>
-                        <div class="right-icons">
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a> </li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
-                                <li><a href="#"><i class="fab fa-whatsapp"></i> whatsapp</a></li>
-                            </ul>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <img src="images/rounded-cts-logo.png" alt="" width="160" height="50" class="my-3">
                         </div>
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="footer-bottom">
-                <div class="row">
-                    <div class="col">
-                        <a href="">Privacy policy</a>
-                    </div>
-                    <div class="col">
-                        <p>&copy; 2023 Core Technology Solutions. All rights reserved.</p>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Core Technology Solutions</a>, All Right Reserved. 
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">About</a>
+                                <a href="">Portofolio</a>
+                                <a href="">Request Quote</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
     <!-- ======= End Footer ======== -->
 
     <!-- Lib Script -->

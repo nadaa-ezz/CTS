@@ -16,7 +16,7 @@ $("body").niceScroll({
     autohidemode: false,
     preservenativescrolling:true,
     zindex: 9999,
-    background: "rgb(150, 182, 197)"
+    background: "rgb(47,112,144)"
     
 });
 }); 
