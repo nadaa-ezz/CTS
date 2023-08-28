@@ -93,13 +93,13 @@ body {
 }
 
 .sub-header .right-icons ul li a{
-  color: #f5a425;
+  color: #276685;
   font-size: 15px;
   text-decoration: none;
 }
 
 .sub-header .right-icons ul li a:hover {
-  color: #276685;
+  color: #f5a425;
   text-decoration: none;
 }
 
@@ -117,7 +117,6 @@ body {
 .fixed-navbar {
   z-index: 1030;
   transition: background-color 0.3s ease-in-out;
-  /* Add a smooth transition effect */
   background-color: whitesmoke;
   /* Add a semi-transparent background color */
 }
@@ -130,15 +129,14 @@ body {
 
 .navbar {
   background-color: white;
-  font-weight: 600;
   margin: 0;
   padding: 0;
 }
 
 .navbar-nav .nav-link.active {
   color: #fdbc54;
-  /* Change to your desired active color */
-  font-weight: bold;
+  font-weight: 900;
+
 }
 
 .navbar-nav a:hover {
@@ -146,6 +144,7 @@ body {
 }
 
 .navbar a {
+  font-size: 1.2rem;
   color: #276685;
   margin-right: 20px !important;
   font-weight: 900;
@@ -166,13 +165,6 @@ body {
 .navbar-nav a:hover::before {
   transform: scaleX(1);
   transform-origin: left;
-}
-
-#link-ul {
-  position: relative;
-  padding: 0 50px;
-  display: flex;
-  gap: 30px;
 }
 
 nav h3 {
@@ -200,6 +192,7 @@ nav h3:hover {
   background-color: #276685;
   color: #eee;
   border: none;
+  padding: 8px 15px;
 }
 
 #navBtn:hover {
@@ -545,8 +538,8 @@ nav h3:hover {
   list-style: none;
   text-align: center;
   width: 180px;
-  top: -90%;
-  left: 30%;
+  top: -135%;
+  left: 35%;
   right: -100%;
   margin-left: -3%;
   font: bold 15px 'Open Sans Condensed', sans-serif;
@@ -610,12 +603,9 @@ nav h3:hover {
 
 .up-arrow {
   position: fixed;
-  bottom: 20px;
-  /* Adjust as needed */
-  right: 20px;
-  /* Adjust as needed */
+  bottom: 35px;
+  right: 40px;
   z-index: 999;
-  /* Make sure it's above other elements */
 }
 
 .up-arrow i {
@@ -623,7 +613,7 @@ nav h3:hover {
   height: 50px;
   border-radius: 50%;
   background-color: #276685;
-  padding: 20px 20px;
+  padding: 15px 17px 20px 17px;
 }
 
 /* ======== End fixed icons  ==== */
@@ -669,6 +659,13 @@ nav h3:hover {
     display: none;
   }
 }
+/* ====== Nav Btn  ===== */
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+  #navBtn {
+    margin-top: 10px;
+  }
+}
 /* ====== about section in home ===== */
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
@@ -676,6 +673,16 @@ nav h3:hover {
     margin-top: 70px;
     color: #2D6F91;
   }
+  .header-content{
+    margin-bottom: 50px;
+    margin: auto;
+  }
+  .header-img{
+    max-width: 80%;
+    margin-bottom: 30px;
+    margin: auto;
+  }
+
 }
 /* ====== Partners Section Media Query ===== */
 @media (max-width: 770px) {

@@ -22,7 +22,7 @@ $("body").niceScroll({
 }); 
 
 
-// Start Servises Script 
+// Start portfolio Script 
 document.addEventListener("DOMContentLoaded", function () {
     "use strict";
 
@@ -30,6 +30,9 @@ document.addEventListener("DOMContentLoaded", function () {
         itemSelector: '.portfolio-item',
         layoutMode: 'fitRows'
     });
+
+    // Set the initial filter to "first" (Web Development)
+    portfolioIsotope.arrange({ filter: '.first' });
 
     var filters = document.querySelectorAll('#portfolio-flters li');
     filters.forEach(function (filter) {
@@ -44,7 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-// End Servises Script 
+// End portfolio Script 
+
 
 // Start Fixed Nav Script
 const navbar = document.getElementById("navbar_top");
