@@ -16,8 +16,8 @@ $("body").niceScroll({
     autohidemode: false,
     preservenativescrolling:true,
     zindex: 9999,
-    background: "rgb(47,112,144)"
-    
+    background: "rgb(47,112,144)",
+    horizrailenabled: false
 });
 }); 
 

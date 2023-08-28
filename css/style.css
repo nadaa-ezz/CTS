@@ -523,11 +523,8 @@ nav h3:hover {
 .whatsapp-icon {
   position: fixed;
   bottom: 20px;
-  /* Adjust as needed */
   left: 20px;
-  /* Adjust as needed */
   z-index: 999;
-  /* Make sure it's above other elements */
 }
 
 .whatsapp-icon #whats-fixed {
@@ -548,11 +545,11 @@ nav h3:hover {
   list-style: none;
   text-align: center;
   width: 180px;
-  top: -100%;
-  left: 100%;
+  top: -90%;
+  left: 30%;
   right: -100%;
   margin-left: -3%;
-  font: bold 12px 'Open Sans Condensed', sans-serif;
+  font: bold 15px 'Open Sans Condensed', sans-serif;
 
   /* This is important for the show/hide CSS animation */
   max-height: 0px;
@@ -672,7 +669,14 @@ nav h3:hover {
     display: none;
   }
 }
-
+/* ====== about section in home ===== */
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
+  .company-title {
+    margin-top: 70px;
+    color: #2D6F91;
+  }
+}
 /* ====== Partners Section Media Query ===== */
 @media (max-width: 770px) {
 
@@ -691,3 +695,4 @@ nav h3:hover {
     margin: 0 auto;
   }
 }
+
