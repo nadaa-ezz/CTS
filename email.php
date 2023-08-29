@@ -1,8 +1,13 @@
 <?php
 $name = $_POST["name"];
 $mobile_num = $_POST["mobile_num"];
+$email =  $_POST["email"];
 $subject = $_POST["subject"];
 $message = $_POST["message"];
+
+
+
+$response = "Thank you, $name! Your request has been received.";
 
 require "vendor/autoload.php";
 require 'vendor/phpmailer/phpmailer/src/Exception.php';
@@ -26,19 +31,21 @@ $mail->Port = 587;
 $mail->Username = "info@cts-egy.com";
 $mail->Password = "Cm67<7qhq";
 
-$mail->setFrom('nada.ezzdin@cts-egy.com', $name);
+$mail->setFrom($email, $name);
 $mail->addAddress("info@cts-egy.com");
  
 $mail->isHTML(true);
 $mail->Subject = $subject;
-$mail->Body = "Service:  ".$subject. "<br/>"."Name:  ".$name."<br/>"."Mobile Number:  " . $mobile_num ."<br/>". "Message:  ".$message ;
-
+$mail->Body = "Service:  ".$subject. "<br/>"."Name:  ".$name."<br/>"."Mobile Number:  ". $mobile_num["full_number"]."<br/>". "Message:  ".$message ;
 $mail->send();
 
-header("Location: sent_email.html");
+//header("Location: sent_email.html");
 //echo " Message have been sent";
-//header("Location: contact.php?success=1");
+echo $response;
 
 } catch(Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    echo "Sorry, message could not be sent.";
 }
+
+
+    
