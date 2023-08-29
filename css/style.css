@@ -42,14 +42,14 @@ body {
   align-items: center;
 }
 
-.button button {
+.button a {
   background-color: #2D6F91;
   border-color: transparent;
   color: #eee;
   font-weight: 500;
 }
 
-.button button:hover {
+#headerBtn:hover {
   background-color: #f5a425;
   border-color: transparent;
 }
@@ -193,6 +193,14 @@ nav h3:hover {
   color: #eee;
   border: none;
   padding: 8px 15px;
+}
+
+#headerBtn {
+  background-color: #276685;
+  color: #eee;
+  border: none;
+  padding: 8px 15px;
+  font-weight: 500;
 }
 
 #navBtn:hover {
@@ -690,3 +698,145 @@ nav h3:hover {
   }
 }
 
+
+/* ======== Start contact ========  */
+section.contact-us {
+  padding: 0px;
+  margin-top: 80px;
+}
+
+
+section.contact-us #contact-form {
+  width: 80%;
+  background-color: #eee;
+  border-radius: 20px;
+  padding: 50px;
+  padding-bottom: 2px;
+}
+
+
+section.contact-us  #contact-form h2 {
+  text-transform: uppercase;
+  color: #1f272b;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+section.contact-us #contact-form input {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1f272b;
+  padding: 0px 15px;
+  margin-bottom: 30px;
+}
+section.contact-us #contact-form select {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1f272b;
+  padding: 0px 15px;
+  margin-bottom: 30px;
+}
+
+section.contact-us  #contact-form textarea {
+  width: 100%;
+  min-height: 140px;
+  max-height: 180px;
+  border-radius: 20px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1f272b;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+#contact-form #form-submit {
+  width: 25vh;
+  height: 6vh;
+  font-size: 18px;
+  color: #fff;
+  background-color: #2d6f91;
+  display: inline-block;
+  border-radius: 22px;
+  font-weight: 500;
+  transition: all 0.3s;
+  outline: none;
+  margin-bottom: 30px;
+  border-color: transparent;
+}
+
+#contact-form #form-submit:hover {
+  background-color: #f5a425;
+  border-color: transparent;
+  opacity: 0.9;
+}
+
+/* Styling for the input field */
+.iti input,
+.iti {
+  width: 100%;
+}
+
+/* Styling for the dropdown */
+.iti__country-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Styling for the selected flag container */
+.iti--separate-dial-code .iti__selected-flag {
+  background-color: rgba(255, 255, 2555, 0.05);
+  border-radius: 10%;
+}
+/* Styling for the flag image */
+
+.iti__selected-flag {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 6px 0 8px;
+}
+
+/* Styling for the dial code */
+.iti__selected-dial-code {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+#mobile_num {
+  width: 100% !important;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1f272b;
+  padding: 0px 15px;
+  margin-bottom: 30px;
+}
+/* ======== End contact ========  */
