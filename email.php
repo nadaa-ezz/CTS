@@ -5,9 +5,8 @@ $email =  $_POST["email"];
 $subject = $_POST["subject"];
 $message = $_POST["message"];
 
-
-
 $response = "Thank you, $name! Your request has been received.";
+print_r($mobile_num);
 
 require "vendor/autoload.php";
 require 'vendor/phpmailer/phpmailer/src/Exception.php';
@@ -34,9 +33,10 @@ $mail->Password = "Cm67<7qhq";
 $mail->setFrom($email, $name);
 $mail->addAddress("info@cts-egy.com");
  
-$mail->isHTML(true);
+//$mail->isHTML(true);
 $mail->Subject = $subject;
-$mail->Body = "Service:  ".$subject. "<br/>"."Name:  ".$name."<br/>"."Mobile Number:  ". $mobile_num["full_number"]."<br/>". "Message:  ".$message ;
+//$mail->Body = "Service:  ".$subject. "<br/>"."Name:  ".$name."<br/>"."Mobile Number:  ". $mobile_num["full_number"]."<br/>". "Message:  ".$message ;
+$mail->Body = "Service:  ".$subject. "<br/>"."Name:  ".$name."<br/>"."<br/>". "Message:  ".$message ;
 $mail->send();
 
 //header("Location: sent_email.html");
