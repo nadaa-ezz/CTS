@@ -251,17 +251,6 @@ nav h3:hover {
   color: #276685;
 }
 
-.service-title::before {
-  content: '';
-  background: #f5a425;
-  height: 5px;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  transform: translateY(63px);
-  border-radius: 10px;
-}
 
 .services:hover {
   transform: translateY(-10px);
@@ -334,23 +323,20 @@ nav h3:hover {
 .partners-title h1 {
   padding: 10px;
   margin-top: 50px;
+  font-weight: 700;
+  font-size: 40px;
   color: #276685;
 }
 
-
-.partners-title h1::before {
-  content: '';
+.partners-line {
+  height: 6px;
+  width: 25%;
   background: #f5a425;
-  height: 5px;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  display: block;
-  transform: translateY(63px);
+  display: inline-block;
   border-radius: 10px;
 }
+
+
 
 .owl-carousel .item {
   height: 25vh;
@@ -382,8 +368,8 @@ nav h3:hover {
 .why-title2::before {
   content: '';
   background: #f5a425;
-  height: 5px;
-  width: 200px;
+  height: 6px;
+  width: 30%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3%;
@@ -392,14 +378,17 @@ nav h3:hover {
   border-radius: 10px;
 }
 
+
 .why-title2 {
   color: #276685;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .why-title {
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 2%;
-  font-weight: 450;
+  font-weight: 500;
   color: #276685;
 }
 
