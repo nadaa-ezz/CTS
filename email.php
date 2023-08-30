@@ -8,10 +8,13 @@ $message = $_POST["message"];
 $response = "Thank you, $name! Your request has been received.";
 //print_r($email);
 
-require "vendor/autoload.php";
-require 'vendor/phpmailer/phpmailer/src/Exception.php';
-require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
-require 'vendor/phpmailer/phpmailer/src/SMTP.php';
+//require 'vendor/phpmailer/phpmailer/src/Exception.php';
+//require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
+//require 'vendor/phpmailer/phpmailer/src/SMTP.php';
+require 'vendor/PHPMailer/src/Exception.php';
+require 'vendor/PHPMailer/src/PHPMailer.php';
+require 'vendor/PHPMailer/src/SMTP.php';
+
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -31,7 +34,7 @@ $mail->Username = "info@cts-egy.com";
 $mail->Password = "Cm67<7qhq";
 
 $mail->setFrom($email, $name);
-$mail->addAddress("info@cts-egy.com");
+$mail->addAddress("ctsegy23@gmail.com");
  
 $mail->isHTML(true);
 $mail->Subject = $subject;

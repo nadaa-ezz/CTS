@@ -16,7 +16,7 @@
                 <div class="col-md-6 text-center">
                     <img src="images/why-us.svg" class="img-fluid" alt="" width="250">
                     <div class="button">
-                    <a id="whyBtn" class="btn btn-primary rounded-pill btn-lg" href="contact.php" target="_blank" role="button" > Request Quote Now</a>
+                    <a id="whyBtn" class="btn btn-primary rounded-pill btn-lg" href="contact.php" role="button" > Request Quote Now</a>
                     </div>
                 </div>
 

@@ -19,7 +19,6 @@
                         <img class="img-fluid w-100" src="images/portfolio/Company-Profile.png" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
                             <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Company-Profile-2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="bg-light p-4">
@@ -33,7 +32,6 @@
                         <img class="img-fluid w-100" src="images/portfolio/Structure-Cabling-System-1.jpg" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
                             <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Structure-Cabling-System-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="bg-light p-4">
@@ -47,7 +45,6 @@
                         <img class="img-fluid w-100" src="images/portfolio/CCTV-Systems-2.jpg" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
                             <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Structure-Cabling-System-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="bg-light p-4">
@@ -61,7 +58,6 @@
                         <img class="img-fluid w-100" src="images/portfolio/Educational-Platform.png" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
                             <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Educational-Platform-2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="bg-light p-4">
@@ -75,7 +71,6 @@
                         <img class="img-fluid w-100" src="images/portfolio/Telephone-Systems-1.jpg" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
                             <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Telephone-Systems-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="bg-light p-4">
@@ -89,7 +84,6 @@
                         <img class="img-fluid w-100" src="images/portfolio/IPTV-Systems.jpg" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
                             <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/IPTV-Systems.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="bg-light p-4">
@@ -103,7 +97,6 @@
                         <img class="img-fluid w-100" src="images/portfolio/Engineering-Insights.png" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
                             <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Engineering-Insights-2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="bg-light p-4">
@@ -117,7 +110,6 @@
                         <img class="img-fluid w-100" src="images/portfolio/COMPUTING-SCANING-PRINTING-SOLUTIONS.jpg" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
                             <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/COMPUTING-SCANING-PRINTING-SOLUTIONS.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="bg-light p-4">
@@ -131,7 +123,6 @@
                         <img class="img-fluid w-100" src="images/portfolio/IT-infrastructure-2.jpg" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
                             <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/IT-infrastructure-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="bg-light p-4">

@@ -416,6 +416,14 @@ nav h3:hover {
   list-style: square;
 }
 
+#whyBtn {
+  background-color: #276685;
+  border-color: transparent;
+}
+ 
+#whyBtn:hover {
+  background-color: #f5a425;
+} 
 /* ======== End why us  ==== */
 
 /* ======== Start Footer ** ======== */
@@ -456,6 +464,12 @@ nav h3:hover {
   transition: .3s;
 }
 
+.footer .footerAddress {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: none;
+}
 .footer .btn.btn-link::before {
   position: relative;
   content: "\f105";
@@ -498,7 +512,7 @@ nav h3:hover {
 }
 
 #footerBtn:hover {
-  background-color: #eb9b1b;
+  background-color: #fdbc54;
   color: #eee;
   border: none;
 }

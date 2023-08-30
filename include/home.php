@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="col-lg-5 col-md-12 header-img">
-                <img src="images/Software integration.svg" class="img-fluid wow zoomIn" data-wow-delay="0.3s" style="max-height: 30rem; ">
+                <img src="images/design-development-services.png" class="img-fluid wow zoomIn" data-wow-delay="0.3s" style="max-height: 30rem; ">
             </div>
         </div>
     </div>
@@ -58,5 +58,5 @@ include('./include/portfolio.php');
 include('./include/partners.php');
 include('./include/why-us.php');
 include('./include/clients.php');
-
+include('./include/footer.php');
 ?>

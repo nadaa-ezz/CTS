@@ -6,21 +6,24 @@
              <div class="partners-line my-2"></div>
          </div>
          <div class=" owl-carousel owl-theme partner-icons">
-             <div class="item "><img src="images/clients/abgad.webp" alt=""></div>
-             <div class="item "><img src="images/clients/abu-auf.png" alt=""></div>
-             <div class="item "><img src="images/clients/ahramGroup.png" alt=""></div>
-             <div class="item "><img src="images/clients/dar elfouad.png" alt=""></div>
-             <div class="item "><img src="images/clients/ecs.jpg" alt=""></div>
-             <div class="item "><img src="images/clients/eva-pharma.png" alt=""></div>
-             <div class="item "><img src="images/clients/gap polymers.png" alt=""></div>
-             <div class="item "><img src="images/clients/mobica.png" alt=""></div>
-             <div class="item "><img src="images/clients/Penduline.png" alt=""></div>
-             <div class="item "><img src="images/clients/rowad.png" alt=""></div>
-             <div class="item "><img src="images/clients/sews-eg.jpg" alt=""></div>
-             <div class="item "><img src="images/clients/solera.jpg" alt=""></div>
-             <div class="item "><img src="images/clients/Tamweely-Logo.webp" alt=""></div>
-             <div class="item "><img src="images/clients/Teleperformance-Egypt.png" alt=""></div>
-             <div class="item "><img src="images/clients/redcone-logo.jpg" alt=""></div>
+             <div class="item "><img src="images/clients/abgad.webp" alt="Abgad logo"></div>
+             <div class="item "><img src="images/clients/abu-auf.png" alt="Abu-auf logo"></div>
+             <div class="item "><img src="images/clients/ahramGroup.png" alt="ahramGroup logo"></div>
+             <div class="item "><img src="images/clients/dar_elfouad.png" alt="Dar el-fouad logo"></div>
+             <div class="item "><img src="images/clients/ecs.jpg" alt="ECS logo"></div>
+             <div class="item "><img src="images/clients/eva-pharma.png" alt="Eva-pharma logo"></div>
+             <div class="item "><img src="images/clients/gap_polymers.png" alt="Gap polymers logo"></div>
+             <div class="item "><img src="images/clients/mobica.png" alt="Mobica logo"></div>
+             <div class="item "><img src="images/clients/Penduline.png" alt="Penduline logo"></div>
+             <div class="item "><img src="images/clients/rowad.png" alt="Rowad logo"></div>
+             <div class="item "><img src="images/clients/sews-eg.jpg" alt="Sews-eg logo"></div>
+             <div class="item "><img src="images/clients/solera.jpg" alt="Solera logo"></div>
+             <div class="item "><img src="images/clients/Tamweely-Logo.webp" alt="Tamweely logo"></div>
+             <div class="item "><img src="images/clients/Teleperformance-Egypt.png" alt=" Teleperformance-Egypt logo"></div>
+             <div class="item "><img src="images/clients/redcone-logo.jpg" alt="Redcone logo"></div>
+             <div class="item "><img src="images/clients/koffe.jpg" alt="Koffe logo"></div>
+             <div class="item "><img src="images/clients/egemac.jpg" alt="Egemac logo"></div>
+             <div class="item "><img src="images/clients/Delta.webp" alt="Delta galil logo"></div>
          </div>
      </div>
  </section>

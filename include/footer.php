@@ -3,44 +3,49 @@
     <div class="container py-2">
         <div class="row g-5 d-flex justify-content-center">
             <div class="col-lg-4 col-md-6">
-                <h4 class="text-light mb-4">Core Technology Solutions</h4>
+                <h4 class="text-light mb-3">Core Technology Solutions</h4>
                 <div class="position-relative mx-auto" style="max-width: 400px;">
-                    <img src="images/rounded-cts-logo.png" alt="" width="160" height="50" class="my-3">
+                    <img src="images/rounded-cts-logo.png" alt="" width="160" height="80" class="my-3">
                 </div>
-                <div class="position-relative mx-auto my-3" style="max-width: 400px;">
-                    <a id="footerBtn" class="btn rounded-pill btn-lg" href="contact.php" role="button" > Request Quote </a>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6">
-                <h4 class="text-light mb-4">More Info</h4>
-                <a class="btn btn-link" href="">About</a>
-                <a class="btn btn-link" href="">Services</a>
-                <a class="btn btn-link" href="">Our Mission</a>
-                <a class="btn btn-link" href="">Our Vision</a>
-                <a class="btn btn-link" href="">Our Clients</a>
-            </div>
-            <div class="col-lg-2 col-md-6">
-                <h4 class="text-light mb-4">Services</h4>
-                <a class="btn btn-link" href="">Web Design</a>
-                <a class="btn btn-link" href="">IT Service</a>
-                <a class="btn btn-link" href="">Web Development</a>
-                <a class="btn btn-link" href="">Portofolio</a>
-                <a class="btn btn-link" href="">Partners</a>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <h4 class="text-light mb-4">Address</h4>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>4D, Police Man Institute St., Maadi, Cairo</p>
-                <p class="mb-2"><i class="fas fa-mobile-alt me-3"></i>(+966) 540038724 </p>
-                <p class="mb-2"><i class="fas fa-mobile-alt me-3"></i>(+20) 1201117955 </p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0227634002 </p>
+                <div>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@cts egy.com</p>
-                <div class="d-flex pt-2">
+                </div>
+                <div class="d-flex mx-0 pt-2">
                     <a class="btn btn-outline-light btn-social" href="https://www.behance.net/coretechnol"><i class="fab fa-behance"></i></a>
                     <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/coretechnologysol/"><i class="fab fa-instagram"></i></a>
                     <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/CoreTechnologySolutions022"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-outline-light btn-social" href="https://www.snapchat.com/add/coretechnology?share_id=zOFk_Vu0-k0&locale=en-GB"><i class="fab fa-snapchat-ghost"></i></a>
                     <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/cts-eg"><i class="fab fa-linkedin-in"></i></a>
                 </div>
+            
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <h4 class="text-light mb-4">More Info</h4>
+                <a class="btn btn-link" href="about.php">About</a>
+                <a class="btn btn-link" href="index.php#services">Services</a>
+                <a class="btn btn-link" href="about.php">Our Mission</a>
+                <a class="btn btn-link" href="about.php">Our Vision</a>
+                <a class="btn btn-link" href="index.php#clients">Our Clients</a>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <h4 class="text-light mb-4">Services</h4>
+                <a class="btn btn-link" href="index.php#portfolio">Web Design</a>
+                <a class="btn btn-link" href="index.php#portfolio">IT Service</a>
+                <a class="btn btn-link" href="index.php#portfolio">Web Development</a>
+                <a class="btn btn-link" href="index.php#portfolio">Portofolio</a>
+                <a class="btn btn-link" href="index.php#partners">Partners</a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-light mb-4">Address</h4>
+                <p class="mb-2"> <a href="https://goo.gl/maps/U9xYVbsMDpf2oFZT9" class="footerAddress"> <i class="fa fa-map-marker-alt me-3"></i>4D, Police Man Institute St., Maadi, Cairo </a></p>
+                <p class="mb-2"><a href="https://goo.gl/maps/QRsoW3D26vodrvwB8" class="footerAddress"> <i class="fa fa-map-marker-alt me-3"></i>Saudi Arabia - Jeddah - King Fahd Road, Al Jazeera Buildings, Third Floor </a></p>
+                <p class="mb-2"><i class="fas fa-mobile-alt me-3"></i>(+966) 540038724 </p>
+                <p class="mb-2"><i class="fas fa-mobile-alt me-3"></i>(+20) 1201117955 </p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0227634002 </p>
+              
+            </div>
+            <div>
+
             </div>
         </div>
     </div>
