@@ -44,7 +44,7 @@
                     <div class="position-relative overflow-hidden">
                         <img class="img-fluid w-100" src="images/portfolio/CCTV-Systems-2.jpg" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
-                            <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Structure-Cabling-System-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/CCTV-Systems-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                     <div class="bg-light p-4">
