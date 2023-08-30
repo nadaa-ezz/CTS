@@ -38,11 +38,10 @@
             <div class="col-lg-4 col-md-6">
                 <h4 class="text-light mb-4">Address</h4>
                 <p class="mb-2"> <a href="https://goo.gl/maps/U9xYVbsMDpf2oFZT9" class="footerAddress"> <i class="fa fa-map-marker-alt me-3"></i>4D, Police Man Institute St., Maadi, Cairo </a></p>
-                <p class="mb-2"><a href="https://goo.gl/maps/QRsoW3D26vodrvwB8" class="footerAddress"> <i class="fa fa-map-marker-alt me-3"></i>Saudi Arabia - Jeddah - King Fahd Road, Al Jazeera Buildings, Third Floor </a></p>
-                <p class="mb-2"><i class="fas fa-mobile-alt me-3"></i>(+966) 540038724 </p>
                 <p class="mb-2"><i class="fas fa-mobile-alt me-3"></i>(+20) 1201117955 </p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0227634002 </p>
-              
+                <p class="mb-2"><a href="https://goo.gl/maps/QRsoW3D26vodrvwB8" class="footerAddress"> <i class="fa fa-map-marker-alt me-3"></i> Al Jazeera Buildings, 3<sup>th</sup> Floor, King Fahd Road, Jeddah </a></p>
+                <p class="mb-2"><i class="fas fa-mobile-alt me-3"></i>(+966) 540038724 </p>
             </div>
             <div>
 

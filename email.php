@@ -26,8 +26,8 @@ try {
 $mail->isSMTP();
 $mail->SMTPAuth = true;
 
-$mail->Host = "smtp.gmail.com";
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+$mail->Host ="smtp.gmail.com";
+//$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
 $mail->Username = "info@cts-egy.com";
