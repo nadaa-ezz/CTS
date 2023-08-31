@@ -16,9 +16,9 @@
             <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
                 <div class="rounded overflow-hidden">
                     <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="images/portfolio/Company-Profile.png" alt="" style="height: 308px;">
+                        <img class="img-fluid w-100" src="images/portfolio/frame4_.svg" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
-                            <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Company-Profile-2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/company_profile.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                     <div class="bg-light p-4">
@@ -55,7 +55,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
                 <div class="rounded overflow-hidden">
                     <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="images/portfolio/Educational-Platform.png" alt="" style="height: 308px;">
+                        <img class="img-fluid w-100" src="images/portfolio/frame6.svg" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
                             <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Educational-Platform-2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                         </div>
@@ -94,7 +94,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
                 <div class="rounded overflow-hidden">
                     <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="images/portfolio/Engineering-Insights.png" alt="" style="height: 308px;">
+                        <img class="img-fluid w-100" src="images/portfolio/frame5.svg" alt="" style="height: 308px;">
                         <div class="portfolio-overlay">
                             <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Engineering-Insights-2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                         </div>
@@ -114,6 +114,45 @@
                     </div>
                     <div class="bg-light p-4">
                         <p class="text-primary fw-bold fs-5 mb-2">COMPUTING, SCANING & PRINTING SOLUTIONS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/portfolio/frame1_.svg" alt="" style="height: 308px;">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Template1.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="bg-light p-4">
+                        <p class="text-primary fw-bold fs-5 mb-2">Tabibac</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/portfolio/frame2_.svg" alt="" style="height: 308px;">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Template2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="bg-light p-4">
+                        <p class="text-primary fw-bold fs-5 mb-2">Pixi travel</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="images/portfolio/frame3_.svg" alt="" style="height: 308px;">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio/Template3.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="bg-light p-4">
+                        <p class="text-primary fw-bold fs-5 mb-2">Ecommerce website</p>
                     </div>
                 </div>
             </div>
